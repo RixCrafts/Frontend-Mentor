@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+:root {
+    --dark: rgba(15, 26, 53, 1);
+    --neon-pink: rgba(219, 19, 113, 1);
+    --neon-blue: rgba(2, 192, 228, 1);
+}
+
+body {
+    background: var(--dark);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid rgb(240, 71, 198);
+    /* X, Y, Blur, Spread radius, Color */
+    box-shadow: 0 5px 10px .1px var(--neon-pink),
+        inset 0 -5px 10px .1px var(--neon-pink);
+    color: var(--neon-blue);
+    font-family: Nabla;
+    text-align: center;
+    /* X, Y, Blur, Color */
+    text-shadow: 1px 1px 2px var(--neon-pink), 0 0 1em var(--neon-blue), 0 0 1.2em var(--neon-blue);
+}
+
+main {
+    /* width: 96%; */
+    /* height: 100vh; */
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 2px solid rgb(2, 192, 228);
+    /* X, Y, Blur, Spread radius, Color */
+    box-shadow: inset 0 2px 15px .1px var(--neon-blue),
+        inset 0 -2px 15px .1px var(--neon-blue);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    justify-items: center;
+    /* align-items: center; */
+    gap: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-color: var(--neon-pink) var(--dark);
+    scrollbar-width: auto;
+}
+
+.project-container {
+    width: 175px;
+    height: 200px;
+    border: 2px solid rgb(73, 82, 104);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 10px; */
+    transition: all ease .5s;
+}
+
+.project-container:hover {
+    border: 3px solid rgb(185, 197, 225);
+}
+
+.project-container a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.project-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.material-symbols-outlined {
+    color: rgb(73, 82, 104);
+    font-size: 9rem;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid rgb(240, 71, 198);
+    /* X, Y, Blur, Spread radius, Color */
+    box-shadow: 0 -5px 10px .1px var(--neon-pink),
+        inset 0 5px 10px .1px var(--neon-pink);
+}
