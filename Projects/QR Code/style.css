@@ -25,6 +25,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 main{
@@ -34,7 +35,7 @@ main{
     padding: 20px;
     border-radius: 20px;
     font-family: Outfit;
-
+    margin-bottom: 10px;
 }
 
 main img{

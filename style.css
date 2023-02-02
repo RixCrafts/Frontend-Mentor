@@ -31,8 +31,6 @@ header {
 }
 
 main {
-    /* width: 96%; */
-    /* height: 100vh; */
     margin: 10px auto;
     border-radius: 10px;
     border: 2px solid rgb(2, 192, 228);
@@ -42,12 +40,11 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
     justify-items: center;
-    /* align-items: center; */
     gap: 10px;
     padding: 20px;
-    overflow-y: scroll;
+    overflow-y: auto;
     scrollbar-color: var(--neon-pink) var(--dark);
-    scrollbar-width: auto;
+    scrollbar-width: none;
 }
 
 .project-container {
@@ -59,7 +56,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* padding: 10px; */
     transition: all ease .5s;
 }
 
@@ -81,7 +77,7 @@ main {
 }
 
 .project-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
 }
 

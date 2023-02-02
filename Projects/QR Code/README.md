@@ -64,4 +64,4 @@ Keep coding frontend mentors challenges.
 
 ## Acknowledgments
 
-Thnaks to the Frontend Mentor Team for the posibility to practice
+Thanks to the Frontend Mentor Team for the posibility to practice
