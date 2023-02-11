@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: var(--very-dark-blue-main-BG);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+}
+
+main {
+    width: 350px;
+    height: 550px;
+    border-radius: 15px;
+    background-color: var(--very-dark-blue-card-BG);
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* ------ Mobile First ------- */
+.img-container {
+    position: relative;
+    height: 60%;
+    border-radius: 15px;
+}
+
+.img-container img {
+    height: 100%;
+    border-radius: 15px;
+}
+
+#img-hover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    top: 0;
+    background-color: rgba(0, 255, 247, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+#img-hover > img{
+    width: 20%;
+    height: 20%;
+}
+
+#img-hover:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+p {
+    font-size: 16px;
+}
+
+#nft-name {
+    color: var(--white);
+    margin: 15px 0;
+}
+
+#nft-name:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+#nft-description {
+    color: var(--soft-blue);
+    font-weight: 300;
+}
+
+#pricing-container {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pricing-container div {
+    width: 100%;
+    display: flex;
+}
+
+#current-price-block img {
+    margin-right: 5px;
+}
+
+#current-price-block p {
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+#price-time-block {
+    justify-content: flex-end;
+}
+
+#price-time-block img {
+    margin-right: 5px;
+}
+
+#price-time-block p {
+    color: var(--soft-blue);
+    font-weight: 300;
+}
+
+.creator-info-container {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(139, 172, 218, .3);
+    padding: 15px 0;
+}
+
+.creator-info-container img {
+    width: 35px;
+    border: 2px solid var(--white);
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.creator-info-container p {
+    color: var(--soft-blue);
+    font-weight: 300;
+}
+
+.creator-info-container p>b {
+    font-weight: 400;
+    color: var(--white);
+}
+
+.creator-info-container p>b:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
