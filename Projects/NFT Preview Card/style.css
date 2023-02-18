@@ -17,7 +17,7 @@
 
 body {
     background-color: var(--very-dark-blue-main-BG);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,39 +27,42 @@ body {
 
 main {
     width: 350px;
-    height: 550px;
-    border-radius: 15px;
+    /* height: 550px; */
+    border-radius: 1rem;
     background-color: var(--very-dark-blue-card-BG);
-    padding: 24px;
+    padding: 1.5rem;
     box-sizing: border-box;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 2rem;
+    color: var(--white);
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+    color: var(--cyan);
+    text-decoration: none;
 }
 
 /* ------ Mobile First ------- */
 .img-container {
     position: relative;
-    height: 60%;
-    border-radius: 15px;
+    border-radius: 1rem;
 }
 
 .img-container img {
-    height: 100%;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 1rem;
 }
 
 #img-hover {
     position: absolute;
     height: 100%;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 1rem;
     top: 0;
     background-color: rgba(0, 255, 247, .3);
     display: flex;
@@ -69,23 +72,24 @@ main {
     transition: all ease 1s;
 }
 
-#img-hover > img{
+#img-hover>img {
     width: 20%;
     height: 20%;
 }
 
-#img-hover:hover{
+#img-hover:hover {
     opacity: 1;
     cursor: pointer;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 #nft-name {
     color: var(--white);
-    margin: 15px 0;
+    margin: 1rem 0;
+    font-size: 1.5rem;
 }
 
 #nft-name:hover {
@@ -99,7 +103,7 @@ p {
 }
 
 #pricing-container {
-    margin: 15px 0;
+    margin: 1rem 0;
     display: flex;
     justify-content: space-between;
 }
@@ -135,13 +139,13 @@ p {
     display: flex;
     align-items: center;
     border-top: 1px solid rgba(139, 172, 218, .3);
-    padding: 15px 0;
+    padding: 1rem 0;
 }
 
 .creator-info-container img {
     width: 35px;
     border: 2px solid var(--white);
-    border-radius: 25px;
+    border-radius: 1.5rem;
     margin-right: 15px;
 }
 

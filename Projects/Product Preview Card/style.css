@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
 
 
-:root{
+:root {
     --dark-cyan: hsl(158, 36%, 37%);
     --cream: hsl(30, 38%, 92%);
     --very-dark-blue: hsl(212, 21%, 14%);
@@ -10,13 +10,13 @@
     --white: hsl(0, 0%, 100%);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-body{
+body {
     height: 100vh;
     background-color: var(--cream);
     display: flex;
@@ -25,18 +25,18 @@ body{
     align-items: center;
 }
 
-main{
+main {
     width: 375px;
     height: 630px;
     background-color: var(--white);
     border-radius: 10px;
 }
 
-.img-container{
+.img-container {
     height: 40%;
 }
 
-.img-container > img{
+.img-container>img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -44,45 +44,46 @@ main{
     border-radius: 10px 10px 0 0;
 }
 
-.content-container{
+.content-container {
     padding: 15px;
     font-family: Montserrat;
 }
 
-#category, #prod-description{
+#category,
+#prod-description {
     font-weight: 500;
     color: var(--dark-grayish-blue);
 }
 
-#category{
+#category {
     text-transform: uppercase;
 }
 
-#prod-name{
+#prod-name {
     font-family: Fraunces;
     margin: 15px 0;
 }
 
-.price{
+.price {
     margin: 30px 0 15px 0;
     display: flex;
     align-items: center;
 }
 
-#currentPrice{
+#currentPrice {
     font-family: Fraunces;
     font-size: 2rem;
     color: var(--dark-cyan);
     margin-right: 30px;
 }
 
-#oldPrice{
+#oldPrice {
     font-size: .8rem;
     text-decoration: line-through;
     opacity: .6;
 }
 
-#addToCart{
+#addToCart {
     width: 100%;
     background-color: var(--dark-cyan);
     color: var(--white);
@@ -94,15 +95,19 @@ main{
     align-items: center;
 }
 
-#addToCart:active{
+#addToCart:hover {
+    cursor: pointer;
+}
+
+#addToCart:active {
     background-color: var(--very-dark-blue);
 }
 
-#addToCart span{
+#addToCart span {
     margin-right: 10px;
 }
 
-footer{
+footer {
     margin-top: 10px;
 }
 
@@ -115,24 +120,24 @@ footer{
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 650px){
-    main{
+@media screen and (min-width: 650px) {
+    main {
         width: 630px;
         height: 430px;
         display: flex;
     }
 
-    .img-container{
+    .img-container {
         width: 50%;
         height: 100%;
     }
 
-    .img-container img{
+    .img-container img {
         object-position: 0;
         border-radius: 10px 0 0 10px;
     }
 
-    .content-container{
+    .content-container {
         box-sizing: border-box;
         width: 50%;
         padding: 30px;
