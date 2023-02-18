@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/RixCrafts/Frontend-Mentor/tree/master/Projects/Order%20Summary)
+- Live Site URL: [GutHub Page](https://rixcrafts.github.io/Frontend-Mentor/Projects/Order%20Summary/index.html)
 
 ## My process
 Using mobile-first workflow, start implementing from top to bottom, first the HTML in full and then the CSS
