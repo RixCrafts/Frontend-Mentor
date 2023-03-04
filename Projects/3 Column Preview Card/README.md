@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Project](https://github.com/RixCrafts/Frontend-Mentor/tree/master/Projects/3%20Column%20Preview%20Card)
+- Live Site URL: [GitHub Pages](https://rixcrafts.github.io/Frontend-Mentor/Projects/3%20Column%20Preview%20Card/index.html)
 
 ## My process
 
