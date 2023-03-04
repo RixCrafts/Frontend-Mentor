@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-- [Main UI](./images/Screenshot%20main.png)
-- [Response UI](./images/Screenshot%20response.png)
+- ![Main UI](./images/Screenshot%20main.png)
+- ![Response UI](./images/Screenshot%20response.png)
 
 ### Links
 

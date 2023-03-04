@@ -1,10 +1,11 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - 3-column preview card component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
 - [Overview](#overview)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -15,14 +16,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
 
-A simple QR Code shower making use of HTML & CSS only. 
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Screenshot
 
-![Main UI Screenshot](./design/Screenshot.png)
+![Main UI](./design/Screenshot.png)
+![Main UI on Hover](./design/Screenshot%20Hover.png)
 
 ### Links
 
@@ -31,30 +37,25 @@ A simple QR Code shower making use of HTML & CSS only.
 
 ## My process
 
-- Study the overall design to delimitate diferent layout component (that will be dev), then think on the containers needed for accomplish the neccesary positioning of elements
+I build this from desktop to mobile due to the natural transformation of the UI
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
 
 ### What I learned
 
-I use this exercise to practice a HTML & CSS, specially the @import command on CSS
-
-```css
-@import url('...');
-```
+Practice the already known concepts
 
 ### Continued development
 
-Keep coding frontend mentors challenges.
+Keep building Frontend Mentor projects to optimize my workflow
 
 ### Useful resources
 
-- [Google Font](https://fonts.google.com) - Free collection of font and icons with multiple usage ways.
+- [MDN Doc](https://developer.mozilla.org/en-US/) - MDN Documentation
 
 ## Author
 

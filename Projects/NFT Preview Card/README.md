@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-- [UI](./design/Screenshot.png)
-- [UI on Hover](./design/Screenshot%20Hover.png)
+- ![UI](./design/Screenshot.png)
+- ![UI on Hover](./design/Screenshot%20Hover.png)
 
 ### Links
 

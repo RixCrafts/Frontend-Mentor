@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/* font-family: 'Lexend Deca', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/* font-family: 'Big Shoulders Display', cursive; */
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    /* Neutral  */
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* for paragraphs */
+    --very-light-gray: hsl(0, 0%, 95%);
+    /* for background, headings, buttons */
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    min-height: 100vh;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--very-light-gray);
+}
+
+section {
+    box-sizing: border-box;
+    max-width: 270px;
+    min-height: 440px;
+    padding: 45px;
+}
+
+#sedans {
+    background-color: var(--bright-orange);
+    border-radius: 10px 0 0 10px;
+}
+
+#sedans button {
+    color: var(--bright-orange);
+}
+
+#suvs {
+    background-color: var(--dark-cyan);
+}
+
+#suvs button {
+    color: var(--dark-cyan);
+}
+
+#luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 10px 10px 0;
+}
+
+#luxury button {
+    color: var(--very-dark-cyan);
+}
+
+header {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.5rem;
+    color: var(--very-light-gray);
+    text-transform: uppercase;
+}
+
+.description>p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--transparent-white);
+}
+
+.learn-more_btn {
+    margin-top: 60px;
+    padding: 10px 0;
+}
+
+.learn-more_btn>button {
+    border: 0;
+    background-color: var(--very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 25px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    color: var(--very-light-gray) !important;
+    background-color: transparent;
+    outline: 2px solid var(--very-light-gray);
+}
+
+@media screen and (max-width: 947px) {
+
+    #suvs {
+        border-radius: 0 10px 10px 0;
+    }
+
+    #luxury {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media screen and (max-width: 636px) {
+    #sedans {
+        border-radius: 10px 10px 0 0;
+    }
+
+    #suvs {
+        border-radius: 0;
+    }
+
+    #luxury {
+        border-radius: 0 0 10px 10px;
+    }
+}
