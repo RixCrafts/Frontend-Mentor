@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/RixCrafts/Frontend-Mentor/tree/master/Projects/Results%20Summary%20Component)
+- Live Site URL: [GitHub Page](https://rixcrafts.github.io/Frontend-Mentor/Projects/Results%20Summary%20Component/index.html)
 
 ## My process
 Study the overall design and desided to build it for desktop first since the transition to mobile is very natural
