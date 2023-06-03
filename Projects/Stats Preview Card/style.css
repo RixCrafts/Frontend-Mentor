@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+    /* Typography */
+    --ff-primary: 'Inter', sans-serif;
+    --ff-secondary: 'Lexend Deca', sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --fs-body: 15px;
+    /* Primary Colors */
+    --clr-very-dark-blue: hsl(233, 47%, 7%);
+    /* Main Background */
+    --clr-dark-desaturated-blue: hsl(244, 38%, 16%);
+    /* Card Background */
+    --clr-soft-violet: hsl(277, 64%, 61%);
+    /* Accent */
+    /* Neutral Colors */
+    --clr-white: hsl(0, 0%, 100%);
+    /* Main Heading, Stats */
+    --clr-slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* Main paragraph */
+    --clr-slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+    /* Stat headings */
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background: var(--clr-very-dark-blue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+}
+
+main {
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background: var(--clr-dark-desaturated-blue);
+}
+
+.image__container {
+    width: 50%;
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 0 10px 10px 0;
+}
+
+/* TODO: Check the bottom limit of the image */
+.image__container>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+    filter: sepia(90%) brightness(75%) saturate(550%) hue-rotate(230deg);
+}
+
+.image__container::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: hsl(277, 100%, 23%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: .1;
+}
+
+.content__container {
+    width: 50%;
+    font-size: 3rem;
+    color: var(--clr-white);
+    text-align: center;
+    padding: 0 1em;
+    text-align: left;
+}
+
+.content__container>h1 {
+    font-size: 1em;
+    /* font-size: 3em; */
+}
+
+h1>span {
+    color: var(--clr-soft-violet);
+}
+
+.content__container>p {
+    font-weight: var(--fw-regular);
+    font-size: .45em;
+    line-height: 1.7em;
+    opacity: .6;
+}
+
+.stats__container {
+    margin: 1.25em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-size: .5em;
+    font-weight: var(--fw-bold);
+}
+
+.category {
+    text-transform: uppercase;
+    font-family: var(--ff-secondary);
+    font-size: .28em;
+    letter-spacing: .1em;
+    margin: .5em 0;
+    opacity: .6;
+}
+
+
+
+@media (max-width: 500px) {
+    main {
+        width: 75%;
+        flex-direction: column-reverse;
+    }
+
+    .image__container {
+        width: 100%;
+        max-height: 30%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .image__container>img {
+        border-radius: inherit;
+    }
+
+    .content__container {
+        width: unset;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 .5em;
+    }
+
+    .content__container>p {
+        font-size: .6em;
+    }
+
+    .stats__container {
+        flex-direction: column;
+        font-size: 3rem;
+    }
+
+    .stats+.stats {
+        margin-top: .5em;
+    }
+
+}
