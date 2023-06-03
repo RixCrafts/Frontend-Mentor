@@ -181,7 +181,7 @@ button {
     border: 0;
 }
 
-button:hover{
+button:hover {
     background: var(--clr-cobalt-blue);
 }
 
@@ -210,33 +210,14 @@ button:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .attribution {
-    font-size: 11px;
+.attribution {
+    color: #000;
+    position: absolute;
+    bottom: 1em;
+    font-size: 1em;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-} */
+}
