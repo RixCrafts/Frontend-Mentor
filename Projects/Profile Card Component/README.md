@@ -30,8 +30,8 @@ Build a Profile card component that work equaly for desktop and mobile views, on
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Project](https://github.com/RixCrafts/Frontend-Mentor/tree/master/Projects/Profile%20Card%20Component)
+- Live Site URL: [GitHub Pages](https://rixcrafts.github.io/Frontend-Mentor/Projects/Profile%20Card%20Component/)
 
 ## My process
 For simplicity when developing the UI, I put the design image as the bodys background and place the 'main' element right next to it so is easy to compare, then build from top to bottom and after that center everything making the body a flex box.
