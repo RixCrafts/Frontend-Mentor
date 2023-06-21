@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Project on GitHub](https://github.com/RixCrafts/Frontend-Mentor/tree/master/Projects/Social%20Proof%20Section)
-- Live Site URL: [GitHub Pages](https://rixcrafts.github.io/Frontend-Mentor/)
+- Live Site URL: [GitHub Pages](https://rixcrafts.github.io/Frontend-Mentor/Projects/Social%20Proof%20Section/index.html)
 
 ## My process
 
