@@ -173,12 +173,14 @@ li {
     }
 }
 
-/* 
+
 .attribution {
-    font-size: 11px;
+    position: absolute;
+    bottom: 5vh;
+    font-size: 1em;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-} */
+}
