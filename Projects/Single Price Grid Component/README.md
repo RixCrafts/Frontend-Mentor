@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Project](https://github.com/RixCrafts/Frontend-Mentor/tree/master/Projects/Single%20Price%20Grid%20Component)
+- Live Site URL: [Live on GitHub Page](https://rixcrafts.github.io/Frontend-Mentor/Projects/Single%20Price%20Grid%20Component/index.html)
 
 ## My process
 
