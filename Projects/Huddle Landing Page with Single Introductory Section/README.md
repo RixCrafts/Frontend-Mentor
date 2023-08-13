@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Project](https://github.com/RixCrafts/Frontend-Mentor/tree/master/Projects/Huddle%20Landing%20Page%20with%20Single%20Introductory%20Section)
+- Live Site URL: [Live Project on GitHub Pages](https://rixcrafts.github.io/Frontend-Mentor/Projects/Huddle%20Landing%20Page%20with%20Single%20Introductory%20Section/index.html)
 
 ## My process
 
