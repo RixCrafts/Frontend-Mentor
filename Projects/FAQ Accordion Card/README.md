@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Project](https://github.com/RixCrafts/Frontend-Mentor/tree/master/Projects/FAQ%20Accordion%20Card)
+- Live Site URL: [Live on GitHub Pages](https://rixcrafts.github.io/Frontend-Mentor/Projects/FAQ%20Accordion%20Card/index.html)
 
 ## My process
 
