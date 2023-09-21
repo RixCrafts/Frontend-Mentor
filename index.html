@@ -1,133 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- External Links -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="style.css">
-    <!-- End -->
-    <title>Frontend Mentor - Practice Hub</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor - Practice Hub</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Frontend Mentor - Practice Hub</h1>
-        <h3>Richard 'RixCrafts' Garcia</h3>
-    </header>
-    <main>
-        <div class="project-container">
-            <a href="Projects/QR Code/index.html" target="_blank">
-                <img src="Projects/QR Code/design/Screenshot.png" alt="Screenshot of the project UI">
-                <span class="project-title">QR Code</span>
-            </a>
+  <header>
+    <h1>Frontend Mentor - Practice Hub</h1>
+    <h3>Richard 'RixCrafts' Garcia</h3>
+  </header>
+  <nav>
+    <ul>
+      <li>Newbie</li>
+      <li>Junior</li>
+      <li>Intermediate</li>
+      <li>Advanced</li>
+      <li>Guru</li>
+    </ul>
+  </nav>
+  <main>
+    <!-- TODO: Implement the mobile version of the UI -->
+    <!-- TODO: Dynamically addition of projects -->
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/QR Code/index.html" target="_blank">
+        <div class="content-container">
+          <div class="lvl-container">
+            <h2>Newbie</h2>
+          </div>
+          <div class="prtsc-container">
+            <img src="./Projects/QR Code/design/Screenshot.png" alt="#">
+          </div>
+          <div class="tech-stack-container">
+            <ul>
+              <li>
+                <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+              </li>
+              <li>
+                <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="project-container">
-            <a href="Projects/Product Preview Card/index.html" target="_blank">
-                <img src="Projects/Product Preview Card/design/Screenshot Mobile.png"
-                    alt="Screenshot of the mobile version">
-                <span class="project-title">Product Preview Card</span>
-            </a>
+        <div class="title-container">
+          <h2 class="project-title">QR Code</h2>
         </div>
-        <div class="project-container">
-            <a href="Projects/Interactive Rating/index.html" target="_blank">
-                <img src="Projects/Interactive Rating/images/Screenshot main.png" alt="Screenshot of the main UI">
-                <span class="project-title">Interactive Rating</span>
-            </a>
+      </a>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Product Preview Card/index.html" target="_blank">
+        <div class="content-container">
+          <div class="lvl-container">
+            <h2>Newbie</h2>
+          </div>
+          <div class="prtsc-container">
+            <img src="./Projects/Product Preview Card/design/Screenshot Desktop.png" alt="#">
+          </div>
+          <div class="tech-stack-container">
+            <ul>
+              <li>
+                <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+              </li>
+              <li>
+                <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="project-container">
-            <a href="Projects/NFT Preview Card/index.html" target="_blank">
-                <img src="Projects/NFT Preview Card/design/Screenshot.png" alt="Screenshot of the main UI">
-                <span class="project-title">NFT Preview Card</span>
-            </a>
+        <div class="title-container">
+          <h2 class="project-title">Product Preview Card</h2>
         </div>
-        <div class="project-container">
-            <a href="Projects/Order Summary/index.html" target="_blank">
-                <img src="Projects/Order Summary/images/Screenshot Main.png" alt="Screenshot of the main UI">
-                <span class="project-title">Order Summary</span>
-            </a>
+      </a>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Interactive Rating/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
         </div>
-        <div class="project-container">
-            <a href="Projects/3 Column Preview Card/index.html" target="_blank">
-                <img src="Projects/3 Column Preview Card/design/Screenshot.png" alt="Screenshot of the main UI">
-                <span class="project-title">3 Column Preview Card</span>
-            </a>
+        <div class="prtsc-container">
+          <img src="./Projects/Interactive Rating/images/Screenshot main.png" alt="#">
         </div>
-        <div class="project-container">
-            <a href="Projects/Results Summary Component/index.html" target="_blank">
-                <img src="Projects/Results Summary Component/design/Screenshot.png" alt="Screenshot of the main UI">
-                <span class="project-title">Results Summary Component</span>
-            </a>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
         </div>
-        <div class="project-container">
-            <a href="Projects/Stats Preview Card/index.html" target="_blank">
-                <img src="Projects/Stats Preview Card/design/Screenshot Desktop.png" alt="Screenshot of the main UI">
-                <span class="project-title">Stats Preview Card</span>
-            </a>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">Interactive Rating</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/NFT Preview Card/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
         </div>
-        <div class="project-container">
-            <a href="./Projects/Profile Card Component/" target="_blank">
-                <img src="./Projects/Profile Card Component/design/Main UI.png" alt="Screenshot of the main UI">
-                <span class="project-title">Profile Card Component</span>
-            </a>
+        <div class="prtsc-container">
+          <img src="./Projects/NFT Preview Card/design/Screenshot.png" alt="#">
         </div>
-        <div class="project-container">
-            <a href="./Projects/Social Proof Section/index.html" target="_blank">
-                <img src="./Projects/Social Proof Section/design/Screenshot UI Desktop.png"
-                    alt="Screenshot of the main UI">
-                <span class="project-title">Social Proof Section</span>
-            </a>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
         </div>
-        <div class="project-container">
-            <a href="./Projects/Four Card Feature Section/index.html" target="_blank">
-                <img src="./Projects/Four Card Feature Section/design/Screenshot Desktop.png"
-                    alt="Screenshot of the main UI">
-                <span class="project-title">Four Card Feature Section</span>
-            </a>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">NFT Preview Card</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Order Summary/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
         </div>
-        <div class="project-container">
-            <a href="./Projects/Single Price Grid Component/index.html" target="_blank">
-                <img src="./Projects/Single Price Grid Component/design/Screenshot Desktop.png"
-                    alt="Screenshot of the main UI">
-                <span class="project-title">Single Price Grid Component</span>
-            </a>
+        <div class="prtsc-container">
+          <img src="./Projects/Order Summary/images/Screenshot Main.png" alt="#">
         </div>
-        <div class="project-container">
-            <a href="./Projects/Huddle Landing Page with Single Introductory Section/index.html" target="_blank">
-                <img src="./Projects/Huddle Landing Page with Single Introductory Section/design/Screenshot - Desktop.png"
-                    alt="Screenshot of the main UI">
-                <span class="project-title">Huddle Landing Page with Single Introductory Section</span>
-            </a>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
         </div>
-        <div class="project-container">
-            <a href="./Projects/FAQ Accordion Card/index.html" target="_blank">
-                <img src="./Projects/FAQ Accordion Card/design/Web capture - Desktop.jpeg" alt="Screenshot of the main UI">
-                <span class="project-title">FAQ Accordion Card</span>
-            </a>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">Order Summary</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/3 Column Preview Card/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
         </div>
-        <!-- <div class="project-container">
-            <a href="#" target="_blank">
-                <img src="#" alt="Screenshot of the main UI">
-                <span class="project-title">Project Title</span>
-            </a>
-        </div> -->
-        <div class="project-container">
-            <span class="material-symbols-outlined">
-                <img src="resources/developer_mode.svg" alt=" In development icon" />
-            </span>
+        <div class="prtsc-container">
+          <img src="./Projects/3 Column Preview Card/design/Screenshot.png" alt="#">
         </div>
-    </main>
-    <footer>
-        <div class="frontendMentor">
-            <!-- Icon and link -->
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
         </div>
-        <div class="github">
-            <!-- Icon and link -->
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">3 Column Preview Card</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Results Summary Component/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
         </div>
-    </footer>
+        <div class="prtsc-container">
+          <img src="./Projects/Results Summary Component/design/Screenshot.png" alt="#">
+        </div>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">Results Summary Components</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Stats Preview Card/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
+        </div>
+        <div class="prtsc-container">
+          <img src="./Projects/Stats Preview Card/design/Screenshot Desktop.png" alt="#">
+        </div>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">Stats Preview Card</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Profile Card Component/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
+        </div>
+        <div class="prtsc-container">
+          <img src="./Projects/Profile Card Component/design/Main UI.png" alt="#">
+        </div>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">Profile Card Component</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Social Proof Section/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
+        </div>
+        <div class="prtsc-container">
+          <img src="./Projects/Social Proof Section/design/Screenshot UI Desktop.png" alt="#">
+        </div>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">Social Proof Section</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Four Card Feature Section/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
+        </div>
+        <div class="prtsc-container">
+          <img src="./Projects/Four Card Feature Section/design/Screenshot Desktop.png" alt="#">
+        </div>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">Four Card Feature Section</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Single Price Grid Component/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
+        </div>
+        <div class="prtsc-container">
+          <img src="./Projects/Single Price Grid Component/design/Screenshot Desktop.png" alt="#">
+        </div>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">Single Price Grid Component</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/Huddle Landing Page with Single Introductory Section/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
+        </div>
+        <div class="prtsc-container">
+          <img src="./Projects/Huddle Landing Page with Single Introductory Section/design/Screenshot - Desktop.png" alt="#">
+        </div>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">Huddle Landing Page with Single Introductory Section</h2>
+      </div>
+    </div>
+    <div class="desktop-container" data-lvl="newbie">
+      <a href="./Projects/FAQ Accordion Card/index.html" target="_blank"></a>
+      <div class="content-container">
+        <div class="lvl-container">
+          <h2>Newbie</h2>
+        </div>
+        <div class="prtsc-container">
+          <img src="./Projects/FAQ Accordion Card/design/Web capture - Desktop.jpeg" alt="#">
+        </div>
+        <div class="tech-stack-container">
+          <ul>
+            <li>
+              <img src="./resources/logos/HTML Shield.png" width="40px" height="40px" alt="HTML Shield Logo">
+            </li>
+            <li>
+              <img src="./resources/logos/CSS Shield.png" width="40px" height="40px" alt="CSS Shield Logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="title-container">
+        <h2 class="project-title">FAQ Accordion Card</h2>
+      </div>
+    </div>
+  </main>
 </body>
-
 </html>
